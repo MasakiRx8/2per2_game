@@ -1,3 +1,13 @@
+// This heder file caluclate payoff for each agent.
+// This means that two agents who is randomly chosen are fighted and calculation the score along the payoff matrix.
+
+//   opponent side strategy
+//        C | D 
+// f  ----------
+// o  C | R | T |
+// c  D | S | P |
+// l  
+
 #ifndef GAME_H
 #define GAME_H
 #include <vector>
