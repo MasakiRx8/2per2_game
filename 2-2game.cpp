@@ -29,7 +29,7 @@ double game_function(int N, double Dg, double Dr) {
 			two_per_two_game(N, Dg, Dr, &ai);
 			strategy_updating_GC(N, &ai);
 			double fc = double(ai.information.numberC) / double(N);
-			//cout << year << " " << Dg << " " << Dr << " " << fc << endl;
+			cout << year << " " << Dg << " " << Dr << " " << fc << endl;
 			current_fc += fc;
 			if (year%measurement_cycle == 0) {
 				current_fc /= double(measurement_cycle);
@@ -53,9 +53,9 @@ double game_function(int N, double Dg, double Dr) {
 
 int main() {
 	int N = 10000;
-	string F_out = "result.csv";
+	string F_out = "result.csv";	// output file name
 	ofstream ofs(F_out);
-	ofs << "Dg,Dr,Fc" << endl;	//Dg : y axis, Dr : x axis, Fc : flaction of Cooperator
+	ofs << "Dg,Dr,Fc" << endl;	// Dg: y axis, Dr: x axis, Fc: flaction of Cooperator
 	for (int q = -10; q <= 10; q++) {
 		double Dg = q * 0.1;
 		for (int w = -10; w <= 10; w++) {
