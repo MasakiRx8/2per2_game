@@ -2,16 +2,19 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include "random.h"
-#include "sort.h"
-#include "game_class.h"
-#include "game.h"
-#include "strategy_update.h"
+#include "./header/random.h"
+#include "./header/sort.h"
+#include "./header/game_class.h"
+#include "./header/game.h"
+#include "./header/strategy_update.h"
 
 using namespace std;
 
 #define ensemble 100
 #define measurement_cycle 100
+
+// Convergence condition: When the average cooperation rate is calculated every 100 seasons,
+// when the value does not change from the average value in the previous 100 seasons.
 
 double game_function(int N, double Dg, double Dr) {
 	AI ai;
