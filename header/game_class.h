@@ -1,3 +1,5 @@
+// This header file define the using classes.
+
 #ifndef GAME_CLASS_H
 #define GAME_CLASS_H
 #include <vector>
@@ -7,15 +9,15 @@
 
 class Agent {
 public:
-	std::vector<int> strategy;
-	std::vector<double> gain;
+	std::vector<int> strategy;	// store each agent strategy
+	std::vector<double> gain;	// store each agent gain (payoff)
 };
 
 class Information {
 public:
-	int numberC;
-	int numberD;
-	double all_gain;
+	int numberC;			// number of C agent
+	int numberD;			// number of D agent
+	double all_gain;		// total gain of all agents
 };
 
 class AI {
