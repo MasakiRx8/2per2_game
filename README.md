@@ -2,10 +2,7 @@
 Perform 2 per 2 game and draw results.
 |Average degree is 4 with BA-SF|
 |:--:|
-|<img src="https://user-images.githubusercontent.com/44464443/47505163-8d358380-d8a8-11e8-95a4-876de10bbc43.png" width="400px" title="Image of the BA-SF, avrage degree is 4">|
-|Cluster Cofficient : 0.16578|Cluster Cofficient : 0.615537|<br>
-|Average Path Length : 2.95657|Average Path Length : 2.79434|
-<br>
+|<img src="https://user-images.githubusercontent.com/44464443/47603993-b3852b80-da2e-11e8-9154-1c7f6efcd298.png" width="400px" title="Dg - Dr diagram">|<br>
 # Dpendency
 Language used : C++<br>
 Compiler : Visual Studio 2017<br>
