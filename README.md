@@ -1,8 +1,6 @@
 # 2-2game Dg-Dr diagram
-Perform 2 per 2 game and draw results.
-|Average degree is 4 with BA-SF|
-|:--:|
-|<img src="https://user-images.githubusercontent.com/44464443/47603993-b3852b80-da2e-11e8-9154-1c7f6efcd298.png" width="400px" title="Dg - Dr diagram">|<br>
+Perform 2 per 2 game and draw results.<br>
+![result](https://user-images.githubusercontent.com/44464443/47603993-b3852b80-da2e-11e8-9154-1c7f6efcd298.png)
 # Dpendency
 Language used : C++<br>
 Compiler : Visual Studio 2017<br>
