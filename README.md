@@ -15,9 +15,9 @@ This software is released under the MIT License, see LICENSE.<br>
 MasakiRx8<br>
 # References
 Book name : 谷本教授の（努力すれば）誰にでもわかる<br>
+
 環境システムの数理解析基礎<br>
--
-収支式の成り立ちから時間発展、数値解析まで<br>
+*収支式の成り立ちから時間発展、数値解析まで<br>*
 Authors : 谷本潤<br>
 Issuer : 五十川直行<br>
 Issuing office : （財）九州大学出版社
