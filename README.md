@@ -1,5 +1,11 @@
 # 2-2game Dg-Dr diagram
 Perform 2 per 2 game and draw results.
+|Average degree is 4 with BA-SF|
+|:--:|
+|<img src="https://user-images.githubusercontent.com/44464443/47505163-8d358380-d8a8-11e8-95a4-876de10bbc43.png" width="400px" title="Image of the BA-SF, avrage degree is 4">|
+|Cluster Cofficient : 0.16578|Cluster Cofficient : 0.615537|<br>
+|Average Path Length : 2.95657|Average Path Length : 2.79434|
+<br>
 # Dpendency
 Language used : C++<br>
 Compiler : Visual Studio 2017<br>
