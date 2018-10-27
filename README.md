@@ -10,8 +10,8 @@ And, copy "2-2game.cpp" and paste on this new .cpp file.<br>
 Next, copy "header" file and paste on the directory where the new .cpp file is located.<br>
 Finaly, this code is able to run.<br>
 # Licence
-This software is released under the MIT License, see LICENSE.
+This software is released under the MIT License, see LICENSE.<br>
 # Authors
-MasakiRx8
+MasakiRx8<br>
 # References
-nothing
+
